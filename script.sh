@@ -16,7 +16,7 @@ generate_config() {
         "loglevel": "none"
     },
     "dns": {
-        "servers": ["https+local://mozilla.cloudflare-dns.com/dns-query"]
+        "servers": ["https+local://dns.google/dns-query"]
     },
     "inbounds": [
         {
@@ -35,7 +35,7 @@ generate_config() {
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/vmess"
+                    "path": "/Qis738jhdso332JHsap3282864bGH"
                 }
             },
             "sniffing": {
